@@ -13,4 +13,5 @@ def menu_principal():
     print('[0] Sair')
     print('[1] Números primos \n[2] Sequência de Fibonacci')
     print('[3] Número Fatorial \n[4] Algoritmo de Euclides')
+    print('[3] Fórmula de Bhaskara')
     print()

@@ -1,5 +1,6 @@
 from atividade_01 import numeros_primos
 from atividades_extras import sequencia_de_Fibonacci, fatorial, algoritmo_de_euclides
+from atividade_Bhaskara import formula_de_bhaskara
 from menu import menu_principal
 
 atividade = 10000
@@ -23,6 +24,9 @@ while atividade != 0:
 
     elif atividade == '4':
         algoritmo_de_euclides()
+    
+    elif atividade == '5':
+        formula_de_bhaskara()
 
     else:
         print("Números inválidos!!!! \nPor favor inserir dados corretos!!!")    
