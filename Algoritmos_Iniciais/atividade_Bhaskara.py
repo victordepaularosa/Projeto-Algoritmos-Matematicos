@@ -1,6 +1,5 @@
 from math import sqrt
 
-
 def formula_de_bhaskara():
     a = float(input("Digite o valor de A do seu X²: "))
     b = float(input("Digite o valor de B de X: "))
